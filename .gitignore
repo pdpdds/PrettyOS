@@ -18,7 +18,8 @@ os-image
 # User-specific files
 .vs/
 *.user
-.log
+*.log
+*.img
 
 ####################
 # Windows detritus #
