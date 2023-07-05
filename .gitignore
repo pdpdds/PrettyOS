@@ -20,6 +20,9 @@ os-image
 *.user
 *.log
 *.img
+*.map
+*.a
+*.com
 
 ####################
 # Windows detritus #
