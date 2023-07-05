@@ -1,5 +1,7 @@
 
  # PrettyOS
+ X86 OS
+ 
  [PrettyOS](https://sourceforge.net/projects/prettyos/)
 
  ![image](https://github.com/pdpdds/PrettyOS/assets/1445129/b6b019c9-13df-4c4d-a554-5ae2ae5a808a)
@@ -19,6 +21,8 @@ In order to utilize Visual Studio as a development environment for operating sys
 Install QEMU to `C:\Program Files (x86)\qemu`, NASM to `C:\Program Files (x86)\nasm` and extract i686-elf-tools to `C:\Program Files (x86)\i686-elf-tools` (such that the path to your GCC is `C:\Program Files (x86)\i686-elf-tools\bin\i686-elf-gcc.exe`)
 
 And add path to system environment path.
+
+You can check solution file in project_files folder.
 
 **Now, VisualGDB Link is under progress**
 
