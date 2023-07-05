@@ -15,3 +15,10 @@ In order to utilize Visual Studio as a development environment for operating sys
 * An assembly syntax highlighter, such as [AsmHighlighter](https://github.com/Trass3r/AsmHighlighter) (though you might have to compile it yourself)
 
 **The versions of NASM and QMU to use are not suggestions. If you wish to use a newer version, I recommend at least verifying you can set breakpoints and step through assembly and C/C++ code with the recommended versions before upgrading**
+
+Install QEMU to `C:\Program Files (x86)\qemu`, NASM to `C:\Program Files (x86)\nasm` and extract i686-elf-tools to `C:\Program Files (x86)\i686-elf-tools` (such that the path to your GCC is `C:\Program Files (x86)\i686-elf-tools\bin\i686-elf-gcc.exe`)
+
+And add path to system environment path.
+
+**Now, VisualGDB Link is under progress**
+
