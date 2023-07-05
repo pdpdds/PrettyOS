@@ -1,0 +1,502 @@
+Archive member included to satisfy reference by file (symbol)
+
+..\stdlibc\stdlibc.a(stdio.o)
+                              ..\..\object_files\user\other_userprogs/pong.c.o (puts)
+..\stdlibc\stdlibc.a(string.o)
+                              ..\stdlibc\stdlibc.a(stdio.o) (memcpy)
+..\stdlibc\stdlibc.a(stdlib.o)
+                              ..\..\object_files\user\other_userprogs/pong.c.o (srand)
+..\stdlibc\stdlibc.a(signal.o)
+                              ..\stdlibc\stdlibc.a(stdlib.o) (raise)
+..\user_tools\prettylib.a(userlib.o)
+                              ..\..\object_files\user\other_userprogs/pong.c.o (sleep)
+..\user_tools\prettylib.a(syscalls.o)
+                              ..\stdlibc\stdlibc.a(stdlib.o) (exitProcess)
+..\user_tools\prettylib.a(start.o)
+                              ..\user_tools\prettylib.a(syscalls.o) (_syscall)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\..\object_files\user\other_userprogs/pong.c.o
+ .data          0x00000000        0x0 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss           0x00000000        0x0 ..\..\object_files\user\other_userprogs/pong.c.o
+ .eh_frame      0x00000000      0x71c ..\..\object_files\user\other_userprogs/pong.c.o
+ .text          0x00000000        0x0 ..\stdlibc\stdlibc.a(stdio.o)
+ .data          0x00000000        0x0 ..\stdlibc\stdlibc.a(stdio.o)
+ .bss           0x00000000        0x0 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.remove   0x00000000       0x14 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.rename   0x00000000       0x16 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.putc     0x00000000        0xe ..\stdlibc\stdlibc.a(stdio.o)
+ .text.getc     0x00000000        0x5 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.fgets    0x00000000       0x62 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.fputs    0x00000000       0x4a ..\stdlibc\stdlibc.a(stdio.o)
+ .text.fread    0x00000000       0x40 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.fwrite   0x00000000       0x42 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.gets_s   0x00000000       0xb8 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.vsnprintf
+                0x00000000      0x277 ..\stdlibc\stdlibc.a(stdio.o)
+ .rodata.vsnprintf
+                0x00000000      0x154 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.snprintf
+                0x00000000       0x1d ..\stdlibc\stdlibc.a(stdio.o)
+ .bss.stdout    0x00000000        0x4 ..\stdlibc\stdlibc.a(stdio.o)
+ .bss.stdin     0x00000000        0x4 ..\stdlibc\stdlibc.a(stdio.o)
+ .bss.stderr    0x00000000        0x4 ..\stdlibc\stdlibc.a(stdio.o)
+ .eh_frame      0x00000000      0x520 ..\stdlibc\stdlibc.a(stdio.o)
+ .text          0x00000000        0x0 ..\stdlibc\stdlibc.a(string.o)
+ .data          0x00000000        0x0 ..\stdlibc\stdlibc.a(string.o)
+ .bss           0x00000000        0x0 ..\stdlibc\stdlibc.a(string.o)
+ .text.memchr   0x00000000       0x2f ..\stdlibc\stdlibc.a(string.o)
+ .text.memcmp   0x00000000       0x58 ..\stdlibc\stdlibc.a(string.o)
+ .text.memmove  0x00000000       0x5e ..\stdlibc\stdlibc.a(string.o)
+ .text.memset   0x00000000       0x3a ..\stdlibc\stdlibc.a(string.o)
+ .text.strcmp   0x00000000       0x3e ..\stdlibc\stdlibc.a(string.o)
+ .text.strncmp  0x00000000       0x6a ..\stdlibc\stdlibc.a(string.o)
+ .text.strcpy   0x00000000       0x23 ..\stdlibc\stdlibc.a(string.o)
+ .text.strncpy  0x00000000       0x84 ..\stdlibc\stdlibc.a(string.o)
+ .text.strcat   0x00000000       0x44 ..\stdlibc\stdlibc.a(string.o)
+ .text.strncat  0x00000000       0x74 ..\stdlibc\stdlibc.a(string.o)
+ .text.strchr   0x00000000       0x34 ..\stdlibc\stdlibc.a(string.o)
+ .text.strrchr  0x00000000       0x89 ..\stdlibc\stdlibc.a(string.o)
+ .text.strcspn  0x00000000       0x60 ..\stdlibc\stdlibc.a(string.o)
+ .rodata.strerror.str1.1
+                0x00000000       0x1a ..\stdlibc\stdlibc.a(string.o)
+ .text.strerror
+                0x00000000       0x26 ..\stdlibc\stdlibc.a(string.o)
+ .text.strpbrk  0x00000000       0x4e ..\stdlibc\stdlibc.a(string.o)
+ .text.strspn   0x00000000       0x5b ..\stdlibc\stdlibc.a(string.o)
+ .text.strstr   0x00000000       0x6d ..\stdlibc\stdlibc.a(string.o)
+ .text.strtok   0x00000000       0xc1 ..\stdlibc\stdlibc.a(string.o)
+ .bss.last.1200
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(string.o)
+ .eh_frame      0x00000000      0x39c ..\stdlibc\stdlibc.a(string.o)
+ .text          0x00000000        0x0 ..\stdlibc\stdlibc.a(stdlib.o)
+ .data          0x00000000        0x0 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss           0x00000000        0x0 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.abort    0x00000000        0xe ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.exit     0x00000000       0x45 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.quick_exit
+                0x00000000       0x45 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text._Exit    0x00000000        0x5 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.labs     0x00000000        0xa ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.llabs    0x00000000       0x22 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.div      0x00000000       0x17 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.ldiv     0x00000000       0x17 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.lldiv    0x00000000       0x41 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.rand     0x00000000       0x1d ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.malloc   0x00000000       0x40 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.atexit   0x00000000       0x8f ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.at_quick_exit
+                0x00000000       0x8f ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.calloc   0x00000000       0x2a ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.free     0x00000000       0x16 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.getenv   0x00000000        0x3 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.size.1228
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.num.1227  0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.size.1221
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.num.1220  0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.defaultProcessHeap
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss._at_quick_exit_funcs
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss._atexit_funcs
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .eh_frame      0x00000000      0x2a0 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text          0x00000000        0x0 ..\stdlibc\stdlibc.a(signal.o)
+ .data          0x00000000        0x0 ..\stdlibc\stdlibc.a(signal.o)
+ .bss           0x00000000        0x0 ..\stdlibc\stdlibc.a(signal.o)
+ .text.dummy    0x00000000        0x2 ..\stdlibc\stdlibc.a(signal.o)
+ .text.signal   0x00000000       0x2f ..\stdlibc\stdlibc.a(signal.o)
+ .text.raise    0x00000000       0x27 ..\stdlibc\stdlibc.a(signal.o)
+ .data.signal_defaults
+                0x00000000       0x18 ..\stdlibc\stdlibc.a(signal.o)
+ .data.signals  0x00000000       0x18 ..\stdlibc\stdlibc.a(signal.o)
+ .data.SIG_IGN  0x00000000        0x4 ..\stdlibc\stdlibc.a(signal.o)
+ .data.SIG_DFL  0x00000000        0x4 ..\stdlibc\stdlibc.a(signal.o)
+ .comment       0x00000000       0x12 ..\stdlibc\stdlibc.a(signal.o)
+ .eh_frame      0x00000000       0x64 ..\stdlibc\stdlibc.a(signal.o)
+ .text          0x00000000        0x0 ..\user_tools\prettylib.a(userlib.o)
+ .data          0x00000000        0x0 ..\user_tools\prettylib.a(userlib.o)
+ .bss           0x00000000        0x0 ..\user_tools\prettylib.a(userlib.o)
+ .text.scrollInfoLine
+                0x00000000       0x7c ..\user_tools\prettylib.a(userlib.o)
+ .text.event_flush
+                0x00000000       0x29 ..\user_tools\prettylib.a(userlib.o)
+ .text.waitForTask
+                0x00000000       0x16 ..\user_tools\prettylib.a(userlib.o)
+ .text.getchar  0x00000000       0x6a ..\user_tools\prettylib.a(userlib.o)
+ .text.getCurrentSeconds
+                0x00000000       0x18 ..\user_tools\prettylib.a(userlib.o)
+ .text.strncicmp
+                0x00000000       0x85 ..\user_tools\prettylib.a(userlib.o)
+ .rodata.showInfo.str1.4
+                0x00000000      0x1f5 ..\user_tools\prettylib.a(userlib.o)
+ .text.showInfo
+                0x00000000       0x44 ..\user_tools\prettylib.a(userlib.o)
+ .text.stringToIP
+                0x00000000       0xab ..\user_tools\prettylib.a(userlib.o)
+ .text.squashPath
+                0x00000000        0x6 ..\user_tools\prettylib.a(userlib.o)
+ .rodata.changeWorkingDir.str1.1
+                0x00000000       0x18 ..\user_tools\prettylib.a(userlib.o)
+ .text.changeWorkingDir
+                0x00000000      0x1dd ..\user_tools\prettylib.a(userlib.o)
+ .text.getWorkingDir
+                0x00000000       0x6c ..\user_tools\prettylib.a(userlib.o)
+ .eh_frame      0x00000000      0x4b4 ..\user_tools\prettylib.a(userlib.o)
+ .text          0x00000000        0x0 ..\user_tools\prettylib.a(syscalls.o)
+ .data          0x00000000        0x0 ..\user_tools\prettylib.a(syscalls.o)
+ .bss           0x00000000        0x0 ..\user_tools\prettylib.a(syscalls.o)
+ .text.execute  0x00000000       0x1e ..\user_tools\prettylib.a(syscalls.o)
+ .text.userHeap_create
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.userHeap_destroy
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.userHeap_alloc
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.userHeap_free
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fopen    0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fgetc    0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fputc    0x00000000       0x17 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fseek    0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.fflush   0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fmove    0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.fclose   0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.partition_format
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.folderAccess
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.folderClose
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_fopen
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_getFolder
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_getString
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setString
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_getInt
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setInt
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_getDouble
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setDouble
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_deleteKey
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setAccess
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setWorkingNode
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.systemControl
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.getCursor
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.mouseButtonPressed
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.getMousePosition
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.setMousePosition
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.dns_getServer
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.dns_setServer
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.tcp_connect
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.tcp_send
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.tcp_close
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.udp_send
+                0x00000000       0x28 ..\user_tools\prettylib.a(syscalls.o)
+ .text.udp_bind
+                0x00000000       0x13 ..\user_tools\prettylib.a(syscalls.o)
+ .text.udp_unbind
+                0x00000000       0x13 ..\user_tools\prettylib.a(syscalls.o)
+ .text.getMyIP  0x00000000        0xc ..\user_tools\prettylib.a(syscalls.o)
+ .text.floppy_dir
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.printLine
+                0x00000000       0x20 ..\user_tools\prettylib.a(syscalls.o)
+ .eh_frame      0x00000000      0x64c ..\user_tools\prettylib.a(syscalls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ..\..\object_files\user\other_userprogs/pong.c.o
+LOAD ..\stdlibc\stdlibc.a
+LOAD ..\user_tools\prettylib.a
+                0x01400000                . = 0x1400000
+
+.text           0x01400000     0x471e
+ *(.text*)
+ .text.WaitKey  0x01400000       0x52 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01400052        0xe 
+ .text.DrawRect
+                0x01400060       0x98 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x014000f8        0x8 
+ .text.DrawMenuContentBox
+                0x01400100      0x2ea ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x014003ea        0x6 
+ .text.DrawMenuHeader
+                0x014003f0     0x15de ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x014019ce        0x2 
+ .text.DrawMenuPoint
+                0x014019d0      0x10e ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01401ade        0x2 
+ .text.DrawYesNo
+                0x01401ae0       0xf2 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01401bd2        0xe 
+ .text.DrawMainMenu
+                0x01401be0       0x9f ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01401c7f        0x1 
+ .text.DrawMenuSlideIn
+                0x01401c80       0x5e ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01401cde        0x2 
+ .text.DrawMenuSlideOut
+                0x01401ce0       0x44 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01401d24        0xc 
+ .text.SwitchToMenu
+                0x01401d30       0x74 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01401da4        0xc 
+ .text.ResetBall
+                0x01401db0       0xdd ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01401e8d        0x3 
+ .text.Sound_Denied.part.0
+                0x01401e90       0x27 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01401eb7        0x9 
+ .text.Error    0x01401ec0      0x70a ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x014025ca        0x6 
+ .text.Sound_OK.part.5
+                0x014025d0       0x21 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x014025f1        0xf 
+ .text.RunGame  0x01402600      0xba8 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x014031a8        0x8 
+ .text.startup.main
+                0x014031b0      0x97d ..\..\object_files\user\other_userprogs/pong.c.o
+                0x014031b0                main
+ *fill*         0x01403b2d        0x3 
+ .text.puts     0x01403b30       0x48 ..\stdlibc\stdlibc.a(stdio.o)
+                0x01403b30                puts
+ *fill*         0x01403b78        0x8 
+ .text.vprintf  0x01403b80      0x34a ..\stdlibc\stdlibc.a(stdio.o)
+                0x01403b80                vprintf
+ *fill*         0x01403eca        0x6 
+ .text.printf   0x01403ed0       0x18 ..\stdlibc\stdlibc.a(stdio.o)
+                0x01403ed0                printf
+ *fill*         0x01403ee8        0x8 
+ .text.vsprintf
+                0x01403ef0      0x23b ..\stdlibc\stdlibc.a(stdio.o)
+                0x01403ef0                vsprintf
+ *fill*         0x0140412b        0x5 
+ .text.sprintf  0x01404130       0x1c ..\stdlibc\stdlibc.a(stdio.o)
+                0x01404130                sprintf
+ *fill*         0x0140414c        0x4 
+ .text.memcpy   0x01404150       0x22 ..\stdlibc\stdlibc.a(string.o)
+                0x01404150                memcpy
+ *fill*         0x01404172        0xe 
+ .text.strlen   0x01404180       0x22 ..\stdlibc\stdlibc.a(string.o)
+                0x01404180                strlen
+ *fill*         0x014041a2        0xe 
+ .text.srand    0x014041b0        0xa ..\stdlibc\stdlibc.a(stdlib.o)
+                0x014041b0                srand
+ *fill*         0x014041ba        0x6 
+ .text.random   0x014041c0       0x47 ..\stdlibc\stdlibc.a(stdlib.o)
+                0x014041c0                random
+ *fill*         0x01404207        0x9 
+ .text.sleep    0x01404210       0x14 ..\user_tools\prettylib.a(userlib.o)
+                0x01404210                sleep
+ *fill*         0x01404224        0xc 
+ .text.iSetCursor
+                0x01404230        0xf ..\user_tools\prettylib.a(userlib.o)
+                0x01404230                iSetCursor
+ *fill*         0x0140423f        0x1 
+ .text.reverse  0x01404240       0x40 ..\user_tools\prettylib.a(userlib.o)
+                0x01404240                reverse
+ .text.utoa     0x01404280       0x54 ..\user_tools\prettylib.a(userlib.o)
+                0x01404280                utoa
+ *fill*         0x014042d4        0xc 
+ .text.itoa     0x014042e0       0x39 ..\user_tools\prettylib.a(userlib.o)
+                0x014042e0                itoa
+ *fill*         0x01404319        0x7 
+ .text.ftoa     0x01404320      0x1c0 ..\user_tools\prettylib.a(userlib.o)
+                0x01404320                ftoa
+ .text.i2hex    0x014044e0       0x48 ..\user_tools\prettylib.a(userlib.o)
+                0x014044e0                i2hex
+ *fill*         0x01404528        0x8 
+ .text.exitProcess
+                0x01404530        0xc ..\user_tools\prettylib.a(syscalls.o)
+                0x01404530                exitProcess
+ *fill*         0x0140453c        0x4 
+ .text.wait     0x01404540       0x1a ..\user_tools\prettylib.a(syscalls.o)
+                0x01404540                wait
+ *fill*         0x0140455a        0x6 
+ .text.waitForEvent
+                0x01404560       0x12 ..\user_tools\prettylib.a(syscalls.o)
+                0x01404560                waitForEvent
+ *fill*         0x01404572        0xe 
+ .text.event_enable
+                0x01404580       0x20 ..\user_tools\prettylib.a(syscalls.o)
+                0x01404580                event_enable
+ .text.event_poll
+                0x014045a0       0x1a ..\user_tools\prettylib.a(syscalls.o)
+                0x014045a0                event_poll
+ *fill*         0x014045ba        0x6 
+ .text.getCurrentMilliseconds
+                0x014045c0        0xc ..\user_tools\prettylib.a(syscalls.o)
+                0x014045c0                getCurrentMilliseconds
+ *fill*         0x014045cc        0x4 
+ .text.putchar  0x014045d0       0x15 ..\user_tools\prettylib.a(syscalls.o)
+                0x014045d0                putchar
+ *fill*         0x014045e5        0xb 
+ .text.textColor
+                0x014045f0       0x13 ..\user_tools\prettylib.a(syscalls.o)
+                0x014045f0                textColor
+ *fill*         0x01404603        0xd 
+ .text.setScrollField
+                0x01404610       0x17 ..\user_tools\prettylib.a(syscalls.o)
+                0x01404610                setScrollField
+ *fill*         0x01404627        0x9 
+ .text.setCursor
+                0x01404630       0x12 ..\user_tools\prettylib.a(syscalls.o)
+                0x01404630                setCursor
+ *fill*         0x01404642        0xe 
+ .text.clearScreen
+                0x01404650       0x13 ..\user_tools\prettylib.a(syscalls.o)
+                0x01404650                clearScreen
+ *fill*         0x01404663        0xd 
+ .text.console_setProperties
+                0x01404670       0x12 ..\user_tools\prettylib.a(syscalls.o)
+                0x01404670                console_setProperties
+ *fill*         0x01404682        0xe 
+ .text.refreshScreen
+                0x01404690        0xc ..\user_tools\prettylib.a(syscalls.o)
+                0x01404690                refreshScreen
+ *fill*         0x0140469c        0x4 
+ .text.keyPressed
+                0x014046a0       0x12 ..\user_tools\prettylib.a(syscalls.o)
+                0x014046a0                keyPressed
+ *fill*         0x014046b2        0xe 
+ .text.beep     0x014046c0       0x16 ..\user_tools\prettylib.a(syscalls.o)
+                0x014046c0                beep
+ *fill*         0x014046d6        0xa 
+ .text          0x014046e0       0x3e ..\user_tools\prettylib.a(start.o)
+                0x014046e0                _syscall
+                0x014046e8                _start
+
+.data           0x0140471e        0x5
+ *(.data*)
+ .data.kickoff_to_the_right
+                0x0140471e        0x1 ..\..\object_files\user\other_userprogs/pong.c.o
+ .data.gamemode
+                0x0140471f        0x1 ..\..\object_files\user\other_userprogs/pong.c.o
+ .data.appmode  0x01404720        0x1 ..\..\object_files\user\other_userprogs/pong.c.o
+ .data.option_menuanimation
+                0x01404721        0x1 ..\..\object_files\user\other_userprogs/pong.c.o
+ .data.option_sound
+                0x01404722        0x1 ..\..\object_files\user\other_userprogs/pong.c.o
+
+.rodata         0x01404724      0xa4c
+ *(.rodata*)
+ .rodata.DrawMenuContentBox.str1.1
+                0x01404724       0x43 ..\..\object_files\user\other_userprogs/pong.c.o
+                                 0x6f (size before relaxing)
+ *fill*         0x01404767        0x1 
+ .rodata.DrawMenuContentBox.str1.4
+                0x01404768      0x124 ..\..\object_files\user\other_userprogs/pong.c.o
+ .rodata.DrawMenuContentBox
+                0x0140488c       0x64 ..\..\object_files\user\other_userprogs/pong.c.o
+ .rodata.DrawMenuHeader.str1.1
+                0x014048f0       0x53 ..\..\object_files\user\other_userprogs/pong.c.o
+                                 0xc0 (size before relaxing)
+ *fill*         0x01404943        0x1 
+ .rodata.DrawMenuHeader.str1.4
+                0x01404944       0x93 ..\..\object_files\user\other_userprogs/pong.c.o
+                                 0xf5 (size before relaxing)
+ .rodata.DrawMenuPoint.str1.1
+                0x014049d7        0x6 ..\..\object_files\user\other_userprogs/pong.c.o
+                                  0xa (size before relaxing)
+ .rodata.DrawYesNo.str1.1
+                0x014049dd        0x7 ..\..\object_files\user\other_userprogs/pong.c.o
+ .rodata.DrawMainMenu.str1.1
+                0x014049e4       0x28 ..\..\object_files\user\other_userprogs/pong.c.o
+ .rodata.Error.str1.1
+                0x01404a0c       0x9f ..\..\object_files\user\other_userprogs/pong.c.o
+                                 0xa9 (size before relaxing)
+ *fill*         0x01404aab        0x1 
+ .rodata.Error.str1.4
+                0x01404aac       0xf1 ..\..\object_files\user\other_userprogs/pong.c.o
+                                0x115 (size before relaxing)
+ .rodata.RunGame.str1.1
+                0x01404b9d       0x32 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01404bcf        0x1 
+ .rodata.RunGame.str1.4
+                0x01404bd0       0x20 ..\..\object_files\user\other_userprogs/pong.c.o
+ .rodata.main.str1.1
+                0x01404bf0      0x151 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01404d41        0x3 
+ .rodata.main.str1.4
+                0x01404d44       0xdc ..\..\object_files\user\other_userprogs/pong.c.o
+                                 0xda (size before relaxing)
+ .rodata.main   0x01404e20       0x60 ..\..\object_files\user\other_userprogs/pong.c.o
+ .rodata.menu_selectable
+                0x01404e80        0x8 ..\..\object_files\user\other_userprogs/pong.c.o
+ .rodata.cst4   0x01404e88       0x24 ..\..\object_files\user\other_userprogs/pong.c.o
+ .rodata.vprintf
+                0x01404eac      0x154 ..\stdlibc\stdlibc.a(stdio.o)
+ .rodata.vsprintf
+                0x01405000      0x154 ..\stdlibc\stdlibc.a(stdio.o)
+ .rodata.cst4   0x01405154        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .rodata.cst4   0x01405158       0x18 ..\user_tools\prettylib.a(userlib.o)
+
+.bss            0x01405170       0x35
+ *(.bss*)
+ .bss.exitapp   0x01405170        0x1 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x01405171        0x3 
+ .bss.ballyspeed
+                0x01405174        0x4 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.ballxspeed
+                0x01405178        0x4 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.bally     0x0140517c        0x4 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.ballx     0x01405180        0x4 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.player2game
+                0x01405184        0x2 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.player1game
+                0x01405186        0x2 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.player2score
+                0x01405188        0x2 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.player1score
+                0x0140518a        0x2 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.player2h  0x0140518c        0x2 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.player1h  0x0140518e        0x2 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.player2y  0x01405190        0x2 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.player1y  0x01405192        0x2 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.menu_selection
+                0x01405194        0x8 ..\..\object_files\user\other_userprogs/pong.c.o
+ .bss.currentmenu
+                0x0140519c        0x1 ..\..\object_files\user\other_userprogs/pong.c.o
+ *fill*         0x0140519d        0x3 
+ .bss.seed      0x014051a0        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.enabledEvents
+                0x014051a4        0x1 ..\user_tools\prettylib.a(userlib.o)
+                0x014051a4                enabledEvents
+OUTPUT(pong.ELF elf32-i386)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 ..\..\object_files\user\other_userprogs/pong.c.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000011       0x12 ..\stdlibc\stdlibc.a(stdio.o)
+ .comment       0x00000011       0x12 ..\stdlibc\stdlibc.a(string.o)
+ .comment       0x00000011       0x12 ..\stdlibc\stdlibc.a(stdlib.o)
+ .comment       0x00000011       0x12 ..\user_tools\prettylib.a(userlib.o)
+ .comment       0x00000011       0x12 ..\user_tools\prettylib.a(syscalls.o)

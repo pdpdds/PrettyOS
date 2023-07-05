@@ -1,0 +1,57 @@
+
+- NASM Map file ---------------------------------------------------------------
+
+Source file:  stage1_bootloader/boot.asm
+Output file:  stage1_bootloader/boot.bin
+
+-- Symbols --------------------------------------------------------------------
+
+---- Section .text ------------------------------------------------------------
+
+Real              Virtual           Name
+            7C03              7C03  OperatingSystemName
+            7C0B              7C0B  BytesPerSec
+            7C0D              7C0D  SecPerClus
+            7C0E              7C0E  ReservedSec
+            7C10              7C10  NumFATs
+            7C11              7C11  RootEntries
+            7C13              7C13  TotSec
+            7C15              7C15  MediaType
+            7C16              7C16  FATSize
+            7C18              7C18  SecPerTrack
+            7C1A              7C1A  NumHeads
+            7C1C              7C1C  HiddenSec
+            7C20              7C20  TotSec32
+            7C24              7C24  DriveNum
+            7C25              7C25  Reserved
+            7C26              7C26  BootSig
+            7C27              7C27  VolumeSerialNum
+            7C2B              7C2B  VolumeLabel
+            7C36              7C36  FileSys
+            7C3E              7C3E  entry_point
+            7C5B              7C5B  Load_Root_Directory_Table
+            7C88              7C88  Load_Root_Directory_Table.LOOP
+            7C9D              7C9D  Load_FAT
+            7CBB              7CBB  Load_Image
+            7CDC              7CDC  Load_Image.EVEN_CLUSTER
+            7CE2              7CE2  Load_Image.ODD_CLUSTER
+            7CE5              7CE5  Load_Image.DONE
+            7CED              7CED  DONE
+            7CF6              7CF6  FAILURE
+            7D02              7D02  Convert_Cluster_to_LBA
+            7D0C              7D0C  Convert_LBA_to_CHS
+            7D26              7D26  ReadSectors
+            7D26              7D26  ReadSectors.NEXTSECTOR
+            7D2E              7D2E  ReadSectors.LOOP
+            7D50              7D50  ReadSectors.SUCCESS
+            7D5F              7D5F  print_string
+            7D61              7D61  print_string.loop
+            7D6A              7D6A  print_string.done
+            7D6B              7D6B  Sector
+            7D6C              7D6C  Head
+            7D6D              7D6D  Cylinder
+            7D6E              7D6E  datasector
+            7D70              7D70  ImageName
+            7D7B              7D7B  msgLoading
+            7D9D              7D9D  msgFailure
+

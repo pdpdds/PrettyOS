@@ -1,0 +1,401 @@
+Archive member included to satisfy reference by file (symbol)
+
+..\stdlibc\stdlibc.a(stdio.o)
+                              ..\..\object_files\user\other_userprogs/webshell.c.o (printf)
+..\stdlibc\stdlibc.a(string.o)
+                              ..\stdlibc\stdlibc.a(stdio.o) (memcpy)
+..\stdlibc\stdlibc.a(stdlib.o)
+                              ..\..\object_files\user\other_userprogs/webshell.c.o (malloc)
+..\stdlibc\stdlibc.a(signal.o)
+                              ..\stdlibc\stdlibc.a(stdlib.o) (raise)
+..\user_tools\prettylib.a(userlib.o)
+                              ..\..\object_files\user\other_userprogs/webshell.c.o (iSetCursor)
+..\user_tools\prettylib.a(syscalls.o)
+                              ..\..\object_files\user\other_userprogs/webshell.c.o (execute)
+..\user_tools\prettylib.a(start.o)
+                              ..\user_tools\prettylib.a(syscalls.o) (_syscall)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\..\object_files\user\other_userprogs/webshell.c.o
+ .data          0x00000000        0x0 ..\..\object_files\user\other_userprogs/webshell.c.o
+ .bss           0x00000000        0x0 ..\..\object_files\user\other_userprogs/webshell.c.o
+ .eh_frame      0x00000000       0x60 ..\..\object_files\user\other_userprogs/webshell.c.o
+ .text          0x00000000        0x0 ..\stdlibc\stdlibc.a(stdio.o)
+ .data          0x00000000        0x0 ..\stdlibc\stdlibc.a(stdio.o)
+ .bss           0x00000000        0x0 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.remove   0x00000000       0x14 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.rename   0x00000000       0x16 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.putc     0x00000000        0xe ..\stdlibc\stdlibc.a(stdio.o)
+ .text.getc     0x00000000        0x5 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.fgets    0x00000000       0x62 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.fputs    0x00000000       0x4a ..\stdlibc\stdlibc.a(stdio.o)
+ .text.fread    0x00000000       0x40 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.fwrite   0x00000000       0x42 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.gets_s   0x00000000       0xb8 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.puts     0x00000000       0x48 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.vsprintf
+                0x00000000      0x23b ..\stdlibc\stdlibc.a(stdio.o)
+ .rodata.vsprintf
+                0x00000000      0x154 ..\stdlibc\stdlibc.a(stdio.o)
+ .text.sprintf  0x00000000       0x1c ..\stdlibc\stdlibc.a(stdio.o)
+ .bss.stdout    0x00000000        0x4 ..\stdlibc\stdlibc.a(stdio.o)
+ .bss.stdin     0x00000000        0x4 ..\stdlibc\stdlibc.a(stdio.o)
+ .bss.stderr    0x00000000        0x4 ..\stdlibc\stdlibc.a(stdio.o)
+ .eh_frame      0x00000000      0x520 ..\stdlibc\stdlibc.a(stdio.o)
+ .text          0x00000000        0x0 ..\stdlibc\stdlibc.a(string.o)
+ .data          0x00000000        0x0 ..\stdlibc\stdlibc.a(string.o)
+ .bss           0x00000000        0x0 ..\stdlibc\stdlibc.a(string.o)
+ .text.memchr   0x00000000       0x2f ..\stdlibc\stdlibc.a(string.o)
+ .text.memcmp   0x00000000       0x58 ..\stdlibc\stdlibc.a(string.o)
+ .text.memcpy   0x00000000       0x22 ..\stdlibc\stdlibc.a(string.o)
+ .text.memmove  0x00000000       0x5e ..\stdlibc\stdlibc.a(string.o)
+ .text.memset   0x00000000       0x3a ..\stdlibc\stdlibc.a(string.o)
+ .text.strncmp  0x00000000       0x6a ..\stdlibc\stdlibc.a(string.o)
+ .text.strncat  0x00000000       0x74 ..\stdlibc\stdlibc.a(string.o)
+ .text.strchr   0x00000000       0x34 ..\stdlibc\stdlibc.a(string.o)
+ .text.strrchr  0x00000000       0x89 ..\stdlibc\stdlibc.a(string.o)
+ .text.strcspn  0x00000000       0x60 ..\stdlibc\stdlibc.a(string.o)
+ .rodata.strerror.str1.1
+                0x00000000       0x1a ..\stdlibc\stdlibc.a(string.o)
+ .text.strerror
+                0x00000000       0x26 ..\stdlibc\stdlibc.a(string.o)
+ .text.strpbrk  0x00000000       0x4e ..\stdlibc\stdlibc.a(string.o)
+ .text.strspn   0x00000000       0x5b ..\stdlibc\stdlibc.a(string.o)
+ .text.strtok   0x00000000       0xc1 ..\stdlibc\stdlibc.a(string.o)
+ .bss.last.1200
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(string.o)
+ .eh_frame      0x00000000      0x39c ..\stdlibc\stdlibc.a(string.o)
+ .text          0x00000000        0x0 ..\stdlibc\stdlibc.a(stdlib.o)
+ .data          0x00000000        0x0 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss           0x00000000        0x0 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.abort    0x00000000        0xe ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.exit     0x00000000       0x45 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.quick_exit
+                0x00000000       0x45 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text._Exit    0x00000000        0x5 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.labs     0x00000000        0xa ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.llabs    0x00000000       0x22 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.div      0x00000000       0x17 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.ldiv     0x00000000       0x17 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.lldiv    0x00000000       0x41 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.srand    0x00000000        0xa ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.rand     0x00000000       0x1d ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.random   0x00000000       0x47 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.atexit   0x00000000       0x8f ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.at_quick_exit
+                0x00000000       0x8f ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.calloc   0x00000000       0x2a ..\stdlibc\stdlibc.a(stdlib.o)
+ .text.getenv   0x00000000        0x3 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.size.1228
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.num.1227  0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.size.1221
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.num.1220  0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.seed      0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss._at_quick_exit_funcs
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss._atexit_funcs
+                0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .rodata.cst4   0x00000000        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .eh_frame      0x00000000      0x2a0 ..\stdlibc\stdlibc.a(stdlib.o)
+ .text          0x00000000        0x0 ..\stdlibc\stdlibc.a(signal.o)
+ .data          0x00000000        0x0 ..\stdlibc\stdlibc.a(signal.o)
+ .bss           0x00000000        0x0 ..\stdlibc\stdlibc.a(signal.o)
+ .text.dummy    0x00000000        0x2 ..\stdlibc\stdlibc.a(signal.o)
+ .text.signal   0x00000000       0x2f ..\stdlibc\stdlibc.a(signal.o)
+ .text.raise    0x00000000       0x27 ..\stdlibc\stdlibc.a(signal.o)
+ .data.signal_defaults
+                0x00000000       0x18 ..\stdlibc\stdlibc.a(signal.o)
+ .data.signals  0x00000000       0x18 ..\stdlibc\stdlibc.a(signal.o)
+ .data.SIG_IGN  0x00000000        0x4 ..\stdlibc\stdlibc.a(signal.o)
+ .data.SIG_DFL  0x00000000        0x4 ..\stdlibc\stdlibc.a(signal.o)
+ .comment       0x00000000       0x12 ..\stdlibc\stdlibc.a(signal.o)
+ .eh_frame      0x00000000       0x64 ..\stdlibc\stdlibc.a(signal.o)
+ .text          0x00000000        0x0 ..\user_tools\prettylib.a(userlib.o)
+ .data          0x00000000        0x0 ..\user_tools\prettylib.a(userlib.o)
+ .bss           0x00000000        0x0 ..\user_tools\prettylib.a(userlib.o)
+ .text.scrollInfoLine
+                0x00000000       0x7c ..\user_tools\prettylib.a(userlib.o)
+ .text.event_flush
+                0x00000000       0x29 ..\user_tools\prettylib.a(userlib.o)
+ .text.sleep    0x00000000       0x14 ..\user_tools\prettylib.a(userlib.o)
+ .text.waitForTask
+                0x00000000       0x16 ..\user_tools\prettylib.a(userlib.o)
+ .text.getchar  0x00000000       0x6a ..\user_tools\prettylib.a(userlib.o)
+ .text.getCurrentSeconds
+                0x00000000       0x18 ..\user_tools\prettylib.a(userlib.o)
+ .text.strncicmp
+                0x00000000       0x85 ..\user_tools\prettylib.a(userlib.o)
+ .rodata.showInfo.str1.4
+                0x00000000      0x1f5 ..\user_tools\prettylib.a(userlib.o)
+ .text.showInfo
+                0x00000000       0x44 ..\user_tools\prettylib.a(userlib.o)
+ .text.stringToIP
+                0x00000000       0xab ..\user_tools\prettylib.a(userlib.o)
+ .text.squashPath
+                0x00000000        0x6 ..\user_tools\prettylib.a(userlib.o)
+ .rodata.changeWorkingDir.str1.1
+                0x00000000       0x18 ..\user_tools\prettylib.a(userlib.o)
+ .text.changeWorkingDir
+                0x00000000      0x1dd ..\user_tools\prettylib.a(userlib.o)
+ .text.getWorkingDir
+                0x00000000       0x6c ..\user_tools\prettylib.a(userlib.o)
+ .eh_frame      0x00000000      0x4b4 ..\user_tools\prettylib.a(userlib.o)
+ .text          0x00000000        0x0 ..\user_tools\prettylib.a(syscalls.o)
+ .data          0x00000000        0x0 ..\user_tools\prettylib.a(syscalls.o)
+ .bss           0x00000000        0x0 ..\user_tools\prettylib.a(syscalls.o)
+ .text.wait     0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.userHeap_destroy
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fopen    0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fgetc    0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fputc    0x00000000       0x17 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fseek    0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.fflush   0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.fmove    0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.fclose   0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.partition_format
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.folderAccess
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.folderClose
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_fopen
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_getFolder
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_getString
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setString
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setInt
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_getDouble
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setDouble
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_deleteKey
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setAccess
+                0x00000000       0x1a ..\user_tools\prettylib.a(syscalls.o)
+ .text.ipc_setWorkingNode
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.getCursor
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.clearScreen
+                0x00000000       0x13 ..\user_tools\prettylib.a(syscalls.o)
+ .text.console_setProperties
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.refreshScreen
+                0x00000000        0xc ..\user_tools\prettylib.a(syscalls.o)
+ .text.keyPressed
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.mouseButtonPressed
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.getMousePosition
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.setMousePosition
+                0x00000000       0x16 ..\user_tools\prettylib.a(syscalls.o)
+ .text.dns_getServer
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.dns_setServer
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .text.udp_send
+                0x00000000       0x28 ..\user_tools\prettylib.a(syscalls.o)
+ .text.udp_bind
+                0x00000000       0x13 ..\user_tools\prettylib.a(syscalls.o)
+ .text.udp_unbind
+                0x00000000       0x13 ..\user_tools\prettylib.a(syscalls.o)
+ .text.getMyIP  0x00000000        0xc ..\user_tools\prettylib.a(syscalls.o)
+ .text.floppy_dir
+                0x00000000       0x12 ..\user_tools\prettylib.a(syscalls.o)
+ .eh_frame      0x00000000      0x64c ..\user_tools\prettylib.a(syscalls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ..\..\object_files\user\other_userprogs/webshell.c.o
+LOAD ..\stdlibc\stdlibc.a
+LOAD ..\user_tools\prettylib.a
+                0x01400000                . = 0x1400000
+
+.text           0x01400000     0x1d1e
+ *(.text*)
+ .text.startup.main
+                0x01400000      0xf17 ..\..\object_files\user\other_userprogs/webshell.c.o
+                0x01400000                main
+ *fill*         0x01400f17        0x9 
+ .text.vprintf  0x01400f20      0x34a ..\stdlibc\stdlibc.a(stdio.o)
+                0x01400f20                vprintf
+ *fill*         0x0140126a        0x6 
+ .text.printf   0x01401270       0x18 ..\stdlibc\stdlibc.a(stdio.o)
+                0x01401270                printf
+ *fill*         0x01401288        0x8 
+ .text.vsnprintf
+                0x01401290      0x277 ..\stdlibc\stdlibc.a(stdio.o)
+                0x01401290                vsnprintf
+ *fill*         0x01401507        0x9 
+ .text.snprintf
+                0x01401510       0x1d ..\stdlibc\stdlibc.a(stdio.o)
+                0x01401510                snprintf
+ *fill*         0x0140152d        0x3 
+ .text.strlen   0x01401530       0x22 ..\stdlibc\stdlibc.a(string.o)
+                0x01401530                strlen
+ *fill*         0x01401552        0xe 
+ .text.strcmp   0x01401560       0x3e ..\stdlibc\stdlibc.a(string.o)
+                0x01401560                strcmp
+ *fill*         0x0140159e        0x2 
+ .text.strcpy   0x014015a0       0x23 ..\stdlibc\stdlibc.a(string.o)
+                0x014015a0                strcpy
+ *fill*         0x014015c3        0xd 
+ .text.strncpy  0x014015d0       0x84 ..\stdlibc\stdlibc.a(string.o)
+                0x014015d0                strncpy
+ *fill*         0x01401654        0xc 
+ .text.strcat   0x01401660       0x44 ..\stdlibc\stdlibc.a(string.o)
+                0x01401660                strcat
+ *fill*         0x014016a4        0xc 
+ .text.strstr   0x014016b0       0x6d ..\stdlibc\stdlibc.a(string.o)
+                0x014016b0                strstr
+ *fill*         0x0140171d        0x3 
+ .text.malloc   0x01401720       0x40 ..\stdlibc\stdlibc.a(stdlib.o)
+                0x01401720                malloc
+ .text.free     0x01401760       0x16 ..\stdlibc\stdlibc.a(stdlib.o)
+                0x01401760                free
+ *fill*         0x01401776        0xa 
+ .text.iSetCursor
+                0x01401780        0xf ..\user_tools\prettylib.a(userlib.o)
+                0x01401780                iSetCursor
+ *fill*         0x0140178f        0x1 
+ .text.reverse  0x01401790       0x40 ..\user_tools\prettylib.a(userlib.o)
+                0x01401790                reverse
+ .text.utoa     0x014017d0       0x54 ..\user_tools\prettylib.a(userlib.o)
+                0x014017d0                utoa
+ *fill*         0x01401824        0xc 
+ .text.itoa     0x01401830       0x39 ..\user_tools\prettylib.a(userlib.o)
+                0x01401830                itoa
+ *fill*         0x01401869        0x7 
+ .text.ftoa     0x01401870      0x1c0 ..\user_tools\prettylib.a(userlib.o)
+                0x01401870                ftoa
+ .text.i2hex    0x01401a30       0x48 ..\user_tools\prettylib.a(userlib.o)
+                0x01401a30                i2hex
+ *fill*         0x01401a78        0x8 
+ .text.execute  0x01401a80       0x1e ..\user_tools\prettylib.a(syscalls.o)
+                0x01401a80                execute
+ *fill*         0x01401a9e        0x2 
+ .text.exitProcess
+                0x01401aa0        0xc ..\user_tools\prettylib.a(syscalls.o)
+                0x01401aa0                exitProcess
+ *fill*         0x01401aac        0x4 
+ .text.userHeap_create
+                0x01401ab0       0x12 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401ab0                userHeap_create
+ *fill*         0x01401ac2        0xe 
+ .text.userHeap_alloc
+                0x01401ad0       0x16 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401ad0                userHeap_alloc
+ *fill*         0x01401ae6        0xa 
+ .text.userHeap_free
+                0x01401af0       0x16 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401af0                userHeap_free
+ *fill*         0x01401b06        0xa 
+ .text.ipc_getInt
+                0x01401b10       0x16 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401b10                ipc_getInt
+ *fill*         0x01401b26        0xa 
+ .text.waitForEvent
+                0x01401b30       0x12 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401b30                waitForEvent
+ *fill*         0x01401b42        0xe 
+ .text.event_enable
+                0x01401b50       0x20 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401b50                event_enable
+ .text.event_poll
+                0x01401b70       0x1a ..\user_tools\prettylib.a(syscalls.o)
+                0x01401b70                event_poll
+ *fill*         0x01401b8a        0x6 
+ .text.getCurrentMilliseconds
+                0x01401b90        0xc ..\user_tools\prettylib.a(syscalls.o)
+                0x01401b90                getCurrentMilliseconds
+ *fill*         0x01401b9c        0x4 
+ .text.systemControl
+                0x01401ba0       0x12 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401ba0                systemControl
+ *fill*         0x01401bb2        0xe 
+ .text.putchar  0x01401bc0       0x15 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401bc0                putchar
+ *fill*         0x01401bd5        0xb 
+ .text.textColor
+                0x01401be0       0x13 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401be0                textColor
+ *fill*         0x01401bf3        0xd 
+ .text.setScrollField
+                0x01401c00       0x17 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401c00                setScrollField
+ *fill*         0x01401c17        0x9 
+ .text.setCursor
+                0x01401c20       0x12 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401c20                setCursor
+ *fill*         0x01401c32        0xe 
+ .text.beep     0x01401c40       0x16 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401c40                beep
+ *fill*         0x01401c56        0xa 
+ .text.tcp_connect
+                0x01401c60       0x16 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401c60                tcp_connect
+ *fill*         0x01401c76        0xa 
+ .text.tcp_send
+                0x01401c80       0x1a ..\user_tools\prettylib.a(syscalls.o)
+                0x01401c80                tcp_send
+ *fill*         0x01401c9a        0x6 
+ .text.tcp_close
+                0x01401ca0       0x12 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401ca0                tcp_close
+ *fill*         0x01401cb2        0xe 
+ .text.printLine
+                0x01401cc0       0x20 ..\user_tools\prettylib.a(syscalls.o)
+                0x01401cc0                printLine
+ .text          0x01401ce0       0x3e ..\user_tools\prettylib.a(start.o)
+                0x01401ce0                _syscall
+                0x01401ce8                _start
+
+.data
+ *(.data*)
+
+.rodata         0x01401d20      0xfa0
+ *(.rodata*)
+ .rodata.main.str1.4
+                0x01401d20      0x980 ..\..\object_files\user\other_userprogs/webshell.c.o
+                                0x9a1 (size before relaxing)
+ .rodata.main.str1.1
+                0x014026a0      0x35f ..\..\object_files\user\other_userprogs/webshell.c.o
+                                0x371 (size before relaxing)
+ *fill*         0x014029ff        0x1 
+ .rodata.vprintf
+                0x01402a00      0x154 ..\stdlibc\stdlibc.a(stdio.o)
+ .rodata.vsnprintf
+                0x01402b54      0x154 ..\stdlibc\stdlibc.a(stdio.o)
+ .rodata.cst4   0x01402ca8       0x18 ..\user_tools\prettylib.a(userlib.o)
+
+.bss            0x01402cc0        0x5
+ *(.bss*)
+ .bss.defaultProcessHeap
+                0x01402cc0        0x4 ..\stdlibc\stdlibc.a(stdlib.o)
+ .bss.enabledEvents
+                0x01402cc4        0x1 ..\user_tools\prettylib.a(userlib.o)
+                0x01402cc4                enabledEvents
+OUTPUT(webshell.ELF elf32-i386)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 ..\..\object_files\user\other_userprogs/webshell.c.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000011       0x12 ..\stdlibc\stdlibc.a(stdio.o)
+ .comment       0x00000011       0x12 ..\stdlibc\stdlibc.a(string.o)
+ .comment       0x00000011       0x12 ..\stdlibc\stdlibc.a(stdlib.o)
+ .comment       0x00000011       0x12 ..\user_tools\prettylib.a(userlib.o)
+ .comment       0x00000011       0x12 ..\user_tools\prettylib.a(syscalls.o)

@@ -1,0 +1,26 @@
+
+- NASM Map file ---------------------------------------------------------------
+
+Source file:  user/vm86/apm.asm
+Output file:  user/vm86/APM.COM
+
+-- Symbols --------------------------------------------------------------------
+
+---- Section .text ------------------------------------------------------------
+
+Real              Virtual           Name
+            4000              4000  CheckAPM
+            401D              401D  CheckAPM.error
+            4027              4027  APMInstall
+            403D              403D  APMDisconnect
+            4046              4046  APMDisconnect.poterror
+            404C              404C  APMDisconnect.error
+            4056              4056  APMConnect
+            4061              4061  APMConnect.error
+            406B              406B  APMVersion
+            407A              407A  APMVersion.error
+            4084              4084  APMEnable
+            4093              4093  APMEnable.error
+            409D              409D  SetAPMState
+            40BA              40BA  SetAPMState.error
+

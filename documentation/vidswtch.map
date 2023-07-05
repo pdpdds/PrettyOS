@@ -1,0 +1,18 @@
+
+- NASM Map file ---------------------------------------------------------------
+
+Source file:  user/vm86/vidswtch.asm
+Output file:  user/vm86/VIDSWTCH.COM
+
+-- Symbols --------------------------------------------------------------------
+
+---- Section .text ------------------------------------------------------------
+
+Real              Virtual           Name
+            4000              4000  SetDisplayStart
+            4014              4014  Enable8bitPalette
+            401E              401E  SwitchToTextMode
+            402B              402B  SwitchToVideoMode
+            4039              4039  GetVgaInfoBlock
+            4046              4046  GetModeInfoBlock
+

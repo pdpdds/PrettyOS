@@ -1,0 +1,87 @@
+
+- NASM Map file ---------------------------------------------------------------
+
+Source file:  stage2_bootloader/boot2.asm
+Output file:  stage2_bootloader/BOOT2.BIN
+
+-- Symbols --------------------------------------------------------------------
+
+---- Section .text ------------------------------------------------------------
+
+Real              Virtual           Name
+             500               500  entry_point
+             50E               50E  A20
+             511               511  Get_Memory_Map
+             517               517  Install_GDT
+             529               529  Load_Root
+             548               548  EnterProtectedMode
+             56B               56B  ProtectedMode
+             57A               57A  PrepareMultiboot
+             5A8               5A8  EXECUTE
+             5B1               5B1  print_string
+             5B3               5B3  print_string.loop
+             5BC               5BC  print_string.done
+             5BD               5BD  InstallGDT
+             5C5               5C5  EnterUnrealMode
+             5D8               5D8  TempPM
+             5E5               5E5  TempPM16
+             5F7               5F7  Back2RM
+             5F9               5F9  gdt_data
+             5F9               5F9  NULL_Desc
+             601               601  CODE_Desc
+             609               609  DATA_Desc
+             611               611  CODE16_Desc
+             619               619  end_of_gdt
+             619               619  gdt_limit_and_base
+             61F               61F  EnableA20
+             62C               62C  EnableA20.no_fast_A20
+             63E               63E  empty_8042
+             652               652  empty_8042.no_output
+             656               656  empty_8042.done
+             657               657  Waitingloop
+             65A               65A  Waitingloop.loop_start
+             65E               65E  datasector
+             660               660  Sector
+             661               661  Head
+             662               662  Cylinder
+             663               663  Convert_Cluster_to_LBA
+             66D               66D  Convert_LBA_to_CHS
+             687               687  ReadSectors
+             68D               68D  ReadSectors.MAIN
+             695               695  ReadSectors.SECTORLOOP
+             6B9               6B9  ReadSectors.SUCCESS
+             6C2               6C2  ReadSectors.COPY_TO_DEST
+             6D7               6D7  LoadRoot
+             704               704  LoadFAT
+             71E               71E  FindFile
+             726               726  FindFile.LOOP2
+             738               738  FindFile.NotFound
+             73D               73D  FindFile.Found
+             740               740  LoadFile
+             742               742  LoadFile.FIND_FILE
+             74D               74D  LoadFile.LOAD_IMAGE_PRE
+             760               760  LoadFile.LOAD_IMAGE
+             789               789  LoadFile.EVEN_CLUSTER
+             78F               78F  LoadFile.ODD_CLUSTER
+             792               792  LoadFile.DONE
+             79A               79A  LoadFile.SUCCESS
+             79F               79F  get_memory_by_int15_e820
+             7D3               7D3  get_memory_by_int15_e820.e820lp
+             7F2               7F2  get_memory_by_int15_e820.jmpin
+             800               800  get_memory_by_int15_e820.notext
+             812               812  get_memory_by_int15_e820.goodent
+             815               815  get_memory_by_int15_e820.skipent
+             81A               81A  get_memory_by_int15_e820.e820f
+             82D               82D  get_memory_by_int15_e820.failed
+             82F               82F  convert_mmap
+             840               840  convert_mmap.L3
+             863               863  convert_mmap.L2
+             86E               86E  ImageName
+             879               879  msgBootLoaderName
+             882               882  msgGTD
+             893               893  msgUnrealMode
+             8A9               8A9  msgLoadKernel
+             8BD               8BD  msgFloppyMotorOff
+             8DE               8DE  msgSwitchToPM
+             904               904  msgFailure
+
