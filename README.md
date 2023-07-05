@@ -1,5 +1,5 @@
-# PrettyOS
- PrettyOS
+![image](https://github.com/pdpdds/PrettyOS/assets/1445129/b6b019c9-13df-4c4d-a554-5ae2ae5a808a)# PrettyOS
+ [PrettyOS](https://sourceforge.net/projects/prettyos/)
 
 ## Prerequisites
 
